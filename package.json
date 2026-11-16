@@ -1,0 +1,25 @@
+{
+  "name": "spy-vs-mercs",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "three": "^0.186.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.186.0",
+    "playwright": "^1.65.1",
+    "typescript": "5.8",
+    "vite": "^7.3.8"
+  },
+  "description": "N64-style stealth-action FPS in the browser: GoldenEye looks, Splinter Cell tactics. Procedural textures and synthesized audio.",
+  "engines": {
+    "node": ">=20"
+  }
+}
